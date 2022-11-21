@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "fastapi_cli_VissaMoutafis"
 version = "0.0.1"
 authors = [
-  { name="VissaMoutafis", email="Unavailable" },
+  { name="VissaMoutafis", email="vissarionm2000@gmail.com" },
 ]
 description = "Light CLI for automating basic FastAPI development tasks"
 readme = "README.md"
