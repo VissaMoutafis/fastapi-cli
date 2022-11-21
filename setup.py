@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='fastapicli',
+    name='fastapi-cli',
     version='0.0.0',
     author='VissaMoutafis',
     packages=find_packages(),

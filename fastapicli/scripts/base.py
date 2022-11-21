@@ -14,3 +14,5 @@ def generate():
 generate.add_command(project)
 generate.add_command(docker)
 generate.add_command(router)
+generate.add_command(service)
+generate.add_command(model)
