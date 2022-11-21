@@ -12,7 +12,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'fastapicli = fastapicli.scripts.base:cli',
+            'fastapicli = fastapicli.cli:cli',
         ]
     },
 )
