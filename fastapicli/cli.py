@@ -3,11 +3,11 @@ from fastapicli.generate_project import project
 from fastapicli.generate_docker import docker
 from fastapicli.generate_utils import router, service, model
 
-@click.group()
+@click.group(help='CLI tool to automate boring development procedures.')
 def cli():
     pass
 
-@cli.group()
+@cli.group(help="Generate project structure and other boiler plate, keeping a structural standard.")
 def generate():
     pass
 
