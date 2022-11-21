@@ -1,7 +1,7 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
-    name='fastapi-cli',
+    name='fastapicli',
     version='0.0.1',
     author='VissaMoutafis',
     packages=['fastapicli'],
@@ -12,7 +12,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'fastapi-cli = fastapicli.scripts.base:cli',
+            'fastapicli = fastapicli.scripts.base:cli',
         ]
     },
 )
