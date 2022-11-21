@@ -4,8 +4,7 @@ setup(
     name='fastapi-cli',
     version='0.0.1',
     author='VissaMoutafis',
-    py_modules=['fastapicli'],
-    include_package_data=True,
+    packages=['fastapicli'],
     install_requires=[
         'Click',
         'fastapi[all]',
@@ -13,7 +12,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'fastapi-cli = fastapicli.scripts.base:cli',
-        ],
+            'fastapi-cli = scripts.base:cli',
+        ]
     },
 )
